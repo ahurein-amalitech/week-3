@@ -1,7 +1,5 @@
 package org.example.part_four.entity;
 
-import org.example.part_four.dto.UpdateUserDto;
-
 public class User {
     private String firstName;
     private String lastName;
@@ -35,8 +33,9 @@ public class User {
         return age;
     }
 
-    public void setAge(int age) {
+    public User setAge(int age) {
         this.age = age;
+        return null;
     }
 
     @Override
