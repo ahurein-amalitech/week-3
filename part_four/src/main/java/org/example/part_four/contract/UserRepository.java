@@ -6,6 +6,9 @@ import org.example.part_four.entity.User;
 
 import java.util.List;
 
+/**
+ * User repository contract to manage students
+ */
 public interface UserRepository {
     User addUser(CreateUserDto createUserDto);
     User getUser(int id);
